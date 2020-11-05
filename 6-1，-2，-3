@@ -1,0 +1,35 @@
+6-1
+x <- integer()
+function(x)
+{if(is.integer(x/2) x/2<- as.logical(TRUE))
+  if(is.integer(x+1)/2 (x+1)/2<- as.logical(FALSE))
+  if(is.finite(x)=FALSE x<-NA)}
+function(1)
+function(-1)
+function(0)
+function(NA)
+
+
+
+6-2
+an_environment <- new.env()
+an_environment[["two_pi"]] <- c(2*pi)
+an_environment$three_pi <- c(3*pi)
+assign(
+  "four_pi",
+  c(4*pi),
+  an_environment
+)
+an_environment[["two_pi"]]
+an_environment$three_pi
+get("four_pi",an_environment)
+
+
+6-3
+a<-pairlist(args)
+b<-body(fun = function(x))
+n=function(x)
+function(n)
+  function(x=1)
+function(NA)
+#不会写！！！看不明白
